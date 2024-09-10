@@ -1,0 +1,24 @@
+
+1. Create a folder called real_estate_landing and open it in vscode
+2. create an index.html file
+3. insert the html boiler plate
+4. Change the title to Real Estate and go live
+5. Start with the navbar 
+6. Create the input with a button
+7. create css file and link it to your html
+8. Create an assets folder, create images folder
+9. go to unsplash, pixabay, freepik, pexels
+10. create a section
+11. create 2 divs in the section
+
+
+
+
+
+
+
+
+
+Go to corlorlib
+choose real Estate
+select the mondy 

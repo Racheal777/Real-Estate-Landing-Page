@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+nav {
+    background-color: rgba(34, 36, 43, 0.83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav button{
+    border: 2px solid #fff;
+    min-width: 130px;
+    text-align: center;
+    padding: 8px 15px;
+    margin-left: 25px;
+    background-color: transparent;
+}
+
+
+header {
+    background-image: url('../assets/images/pic2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 724px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    background-color: rgba(34, 36, 43, 0.83);
+    padding: 45px  40px;
+    margin-right: 20%;
+    margin-left: 20%;
+    
+   
+
+}
+
+.input-section input {
+    padding: 18px;
+    width: 70%;
+    border: none;
+}
+
+.input-section button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0 23px;
+    text-transform: uppercase;
+}
+
+.main-container{
+   width: 50%;
+   margin: auto;
+  
+}
+
+.main-container h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.flex-container{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 3rem;
+    
+}
+
+.text-container{
+    width: 50%;
+}
+
+.image-container{
+    width: 50%;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.text-container h2{
+    margin-bottom: 1.5rem;
+}
+
+.text-container p{
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: grey;
+}
+
+.text-container a{
+    color: red;
+}
+
+
+.home-item img{
+    width: 100%;
+}
+
+.flex-home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    margin-bottom: 4rem;
+}
+
+
+.motgage{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(7, 68, 81);
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.motgage-text{
+    color: white;
+    margin: auto;
+    width: 70%;
+}
